@@ -1,4 +1,4 @@
-"""Dummy app that takes in a variable number of input files and generates as many output files as it is asked for"""
+"""Demo app that takes in a variable number of input files and generates as many output files as it is asked for"""
 import click
 
 
