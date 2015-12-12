@@ -7,9 +7,9 @@ setup(
     description='Demo App for testing on the platform',
     author='Seven Bridges Genomics',
     author_email='kaushik.ghose@sbgenomics.com',
-    py_modules=['dummy'],
+    py_modules=['demo_tool'],
     entry_points={
-      'console_scripts': ['tool = demo_tool:cli', 'meta = demo_meta_analysis:cli']
+      'console_scripts': ['tool = demo_tool:tool', 'meta-tool = demo_tool:meta_tool']
     },
     install_requires=['click>=3.3'],
 )
