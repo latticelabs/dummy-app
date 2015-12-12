@@ -9,7 +9,7 @@ setup(
     author_email='kaushik.ghose@sbgenomics.com',
     py_modules=['dummy'],
     entry_points={
-      'console_scripts': ['tool = demo_tool:cli']
+      'console_scripts': ['tool = demo_tool:cli', 'meta = demo_meta_analysis:cli']
     },
     install_requires=['click>=3.3'],
 )
